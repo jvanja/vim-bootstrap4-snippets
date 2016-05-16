@@ -1,8 +1,12 @@
 # Bootstrap 4 Snippets
 
-HTML snippets for [Twitter Bootstrap 4](http://getbootstrap.com/) markup, for the Vim [snipMate](https://github.com/garbas/vim-snipmate) and [UltiSnips](https://github.com/SirVer/ultisnips).
+HTML snippets for [Twitter Bootstrap 4](http://getbootstrap.com/) markup, for the Vim [UltiSnips](https://github.com/SirVer/ultisnips) and [snipMate](https://github.com/garbas/vim-snipmate).
 
 ## Installation
+
+### Using [Vundle](https://github.com/VundleVim/Vundle.vim)
+    # add this line to your .vimrc
+    $ Plugin 'jvanja/vim-bootstrap4-snippets'
 
 ### Using [Pathogen](https://github.com/tpope/vim-pathogen)
 
@@ -12,10 +16,6 @@ HTML snippets for [Twitter Bootstrap 4](http://getbootstrap.com/) markup, for th
 
     # Install vim-bootstrap4-snippets
     $ git clone git://github.com/jvanja/vim-bootstrap4-snippets.git
-
-### Using [Vundle](https://github.com/VundleVim/Vundle.vim)
-    # add this line to your .vimrc
-    $ Plugin 'VundleVim/Vundle.vim'
 
 ## Usage
 
@@ -386,6 +386,13 @@ See <a href="triggers">Trigger Glossary</a> below for a full list of triggers.
 | emb            | Generates a  Responsive embeds        |
 
 ## Credits
-[Atom Bootstrap 4](https://github.com/degouville/atom-bootstrap4)
+These snippets are Vim rewrite of the [Atom Bootstrap 4](https://github.com/degouville/atom-bootstrap4) plugin.
+
+## Bugs
+Bootstrap 4 at the time this was created is still in alpha ( v4.0.0-alpha.2 ) so there could be
+some breaking changes. Feel free to contribute.
 
 ---
+
+[**Back to Top**](#bootstrap-4-snippets)
+

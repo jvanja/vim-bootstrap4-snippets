@@ -26,7 +26,7 @@ btn
 ```
 which generates:
 ```html
-<button type="button" class="btn btn-primary">Default</button>
+<button type="button" class="btn btn-primary"></button>
 ```
 
 See <a href="triggers">Trigger Glossary</a> below for a full list of triggers.

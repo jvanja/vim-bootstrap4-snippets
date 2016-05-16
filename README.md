@@ -14,8 +14,8 @@ HTML snippets for [Twitter Bootstrap 4](http://getbootstrap.com/) markup, for th
     $ git clone git://github.com/jvanja/vim-bootstrap4-snippets.git
 
 ### Using [Vundle](https://github.com/VundleVim/Vundle.vim)
-		# add this line to your .vimrc
-		$ Plugin 'VundleVim/Vundle.vim'
+    # add this line to your .vimrc
+    $ Plugin 'VundleVim/Vundle.vim'
 
 ## Usage
 
@@ -24,7 +24,7 @@ In an html file, type a trigger name in Insert mode, and press your snippet trig
 ```html
 btn
 ```
-generates:
+which generates:
 ```html
 <button type="button" class="btn btn-primary">Default</button>
 ```

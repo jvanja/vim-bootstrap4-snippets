@@ -1,6 +1,6 @@
 # Bootstrap 4 Snippets
 
-HTML snippets for [Twitter Bootstrap 4](http://getbootstrap.com/) markup, for the Vim [UltiSnips](https://github.com/SirVer/ultisnips) and [snipMate](https://github.com/garbas/vim-snipmate).
+HTML snippets for [Twitter Bootstrap 4](http://v4-alpha.getbootstrap.com) markup, for the Vim [UltiSnips](https://github.com/SirVer/ultisnips) and [snipMate](https://github.com/garbas/vim-snipmate).
 
 ## Installation
 

@@ -3,7 +3,7 @@
 HTML snippets for [Twitter Bootstrap 4](http://v4-alpha.getbootstrap.com) markup, for the Vim [UltiSnips](https://github.com/SirVer/ultisnips) and [snipMate](https://github.com/garbas/vim-snipmate).
 
 Screenshot:
-![](https://raw.githubusercontent.com/jvanja/vim-bootstrap4-snippets/master/screenshots/btrsp4.gif)
+![](https://raw.githubusercontent.com/jvanja/vim-bootstrap4-snippets/master/screenshots/btrsp4a.gif)
 
 ## Installation
 

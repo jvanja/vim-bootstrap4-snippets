@@ -29,7 +29,7 @@ which generates:
 <button type="button" class="btn btn-primary"></button>
 ```
 
-See <a href="triggers">Trigger Glossary</a> below for a full list of triggers.
+See <a href="#triggers">Trigger Glossary</a> below for a full list of triggers.
 
 
 ## <a name="menu"></a>Menu

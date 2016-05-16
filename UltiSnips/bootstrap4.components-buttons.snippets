@@ -1,0 +1,81 @@
+# Buttons
+# Button - Bootstrap 4
+snippet btn
+	<button type="button" class="btn btn-primary">$1</button>
+endsnippet
+
+# Button colors - Bootstrap 4
+snippet btnc
+	<button type="button" class="btn btn-${1:primary|primary|secondary|success|warning|danger|link}">$2</button>
+endsnippet
+
+# Button Outline - Bootstrap 4
+snippet btno
+	<button type="button" class="btn btn-${1:primary|primary|secondary|success|warning|danger|link}-outline">$2</button>
+endsnippet
+
+# Button <a> - Bootstrap 4
+snippet btna
+	<a class="btn btn-primary" href="${1:#}" role="button">$2</a>
+endsnippet
+
+# Button <input> - Bootstrap 4
+snippet btni
+	<input class="btn btn-primary" type="button" value="$2">
+endsnippet
+
+# Button sizes - Bootstrap 4
+snippet btnsz
+	<button type="button" class="btn btn-primary btn-${1:lg|sm}">$2</button>
+endsnippet
+
+# Button block - Bootstrap 4
+snippet btnbk
+	<button type="button" class="btn btn-primary btn-lg btn-block">$1</button>
+endsnippet
+
+# Button state <a> - Bootstrap 4
+snippet btnast
+	<a href="#" class="btn btn-primary ${1:active|disabled}" role="button">$2</a>
+endsnippet
+
+# Button state - Bootstrap 4
+snippet btnst
+	<button type="button" class="btn btn-primary" disabled>$1</button>
+endsnippet
+
+# Button toggle - Bootstrap 4
+snippet btnt
+	<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">$1</button>
+endsnippet
+
+# Button plugin Checkbox - Bootstrap 4
+snippet btnpc
+	<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-primary active">
+			<input type="checkbox" checked autocomplete="off">$1
+		</label>
+		<label class="btn btn-primary">
+			<input type="checkbox" autocomplete="off">$2
+		</label>
+		<label class="btn btn-primary">
+			<input type="checkbox" autocomplete="off">$3
+		</label>
+	</div>
+endsnippet
+
+# Button plugin Radio - Bootstrap 4
+snippet btnpr
+	<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-primary active">
+			<input type="radio" name="options" id="option1" autocomplete="off" checked>$1
+		</label>
+		<label class="btn btn-primary">
+			<input type="radio" name="options" id="option2" autocomplete="off">$2
+		</label>
+		<label class="btn btn-primary">
+			<input type="radio" name="options" id="option3" autocomplete="off">$3
+		</label>
+	</div>
+endsnippet
+

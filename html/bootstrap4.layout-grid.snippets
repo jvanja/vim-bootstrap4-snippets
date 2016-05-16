@@ -1,0 +1,303 @@
+
+# Containers
+# Container - Bootstrap 4
+snippet con
+	<div class="container">
+		$1
+	</div>
+
+
+# Container Fluid (full width) - Bootstrap 4
+snippet conf
+	<div class="container-fluid">
+		$1
+	</div>
+
+
+# Grid
+# Row - Bootstrap 4
+snippet row
+	<div class="row">
+		$1
+	</div>
+
+
+# CRC
+# Simple grid - Bootstrap 4
+snippet grid
+	<div class="container">
+		<div class="row">${4:
+
+			<div class="col-${1:xs|sm|md|lg|xl}-${2:1-12}">
+				$3
+			</div>
+
+		}</div>
+	</div>
+
+
+
+# 3 Columns grid - Bootstrap 4
+snippet 3col
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-md-4}">
+				${2:One of three columns}
+			</div>
+			<div class="${1:col-md-4}">
+				${2:One of three columns}
+			</div>
+			<div class="${1:col-md-4}">
+				${2:One of three columns}
+			</div>
+		</div>
+	</div>
+
+
+# 3 Responsive Columns grid - Bootstrap 4
+snippet 3colr
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+				${4:One of three columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+				${4:One of three columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-4}">
+				${4:One of three columns}
+			</div>
+		</div>
+	</div>
+
+
+# 2 Columns grid - Bootstrap 4
+snippet 2col
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-md-6}">
+				${2:One of two columns}
+			</div>
+			<div class="${1:col-md-6}">
+				${2:One of two columns}
+			</div>
+		</div>
+	</div>
+
+
+# 2 Responsive Columns grid - Bootstrap 4
+snippet 2colr
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-xs-12} ${2:col-md-6}">
+				${3:One of two columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-md-6}">
+				${3:One of two columns}
+			</div>
+		</div>
+	</div>
+
+
+# 4 Columns grid - Bootstrap 4
+snippet 4col
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-md-3}">
+				${2:One of four columns}
+			</div>
+			<div class="${1:col-md-3}">
+				${2:One of four columns}
+			</div>
+			<div class="${1:col-md-3}">
+				${2:One of four columns}
+			</div>
+			<div class="${1:col-md-3}">
+				${2:One of four columns}
+			</div>
+		</div>
+	</div>
+
+
+# 4 Responsive Columns grid - Bootstrap 4
+snippet 4colr
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-xs-6} ${2:col-md-3}">
+				${3:One of four columns}
+			</div>
+			<div class="${1:col-xs-6} ${2:col-md-3}">
+				${3:One of four columns}
+			</div>
+			<div class="${1:col-xs-6} ${2:col-md-3}">
+				${3:One of four columns}
+			</div>
+			<div class="${1:col-xs-6} ${2:col-md-3}">
+				${3:One of four columns}
+			</div>
+		</div>
+	</div>
+
+
+# 6 Columns grid - Bootstrap 4
+snippet 6col
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-md-2}">
+				${2:One of six columns}
+			</div>
+			<div class="${1:col-md-2}">
+				${2:One of six columns}
+			</div>
+			<div class="${1:col-md-2}">
+				${2:One of six columns}
+			</div>
+			<div class="${1:col-md-2}">
+				${2:One of six columns}
+			</div>
+			<div class="${1:col-md-2}">
+				${2:One of six columns}
+			</div>
+			<div class="${1:col-md-2}">
+				${2:One of six columns}
+			</div>
+		</div>
+	</div>
+
+
+# 12 Columns grid - Bootstrap 4
+snippet 12col
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+			<div class="${1:col-md-1}">
+				${2:One of twelve columns}
+			</div>
+		</div>
+	</div>
+
+
+# 12 Responsive Columns grid - Bootstrap 4
+snippet 12colr
+	<div class="container">
+		<div class="row">
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+			<div class="${1:col-xs-12} ${2:col-sm-6} ${3:col-md-2} ${4:col-lg-1}">
+				${5:One of twelve columns}
+			</div>
+		</div>
+	</div>
+
+
+
+# Columns
+# Column (full option)
+snippet col
+	<div class="col-${1:xs|sm|md|lg|xl}-${2:1-12}">
+	$3
+	</div>
+
+
+# Column Extra Small
+snippet col-xs
+	<div class="col-xs-${1:1-12}">
+	$2
+	</div>
+
+
+# Column Small
+snippet col-sm
+	<div class="col-sm-${1:1-12}">
+	$2
+	</div>
+
+
+# Column Medium
+snippet col-md
+	<div class="col-md-${1:1-12}">
+	$2
+	</div>
+
+
+# Column Large
+snippet col-lg
+	<div class="col-lg-${1:1-12}">
+	$2
+	</div>
+
+
+# Column Extra Large
+snippet col-xl
+	<div class="col-xl-${1:1-12}">
+	$2
+	</div>
+
+
+# Clearfix
+# Clearfix for Grid system
+snippet colcf
+	<div class="clearfix"></div>

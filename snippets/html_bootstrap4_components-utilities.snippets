@@ -1,0 +1,67 @@
+# Utilities
+# Text alignment - Bootstrap 4
+snippet texta
+	<p class="text-${1:left|center|right|justify|nowrap}">$2</p>
+endsnippet
+
+# Text transform - Bootstrap 4
+snippet textt
+	<p class="text-${1:lowercase|uppercase|capitalize}">${2:${1:Lowercased|Uppercased|Capitalized} text.}</p>
+endsnippet
+
+# Text context colors - Bootstrap 4
+snippet textcol
+	<p class="text-${1:muted|primary|success|info|warning|danger}">${2:Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.}</p>
+endsnippet
+
+# Text context background colors - Bootstrap 4
+snippet textbgcol
+	<p class="bg-${1:muted|primary|success|info|warning|danger}">${2:Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.}</p>
+endsnippet
+
+# Close icon - Bootstrap 4
+snippet cloi
+	<button type="button" class="close" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+		<span class="sr-only">${1:Close}</span>
+	</button>
+endsnippet
+
+# Center block - Bootstrap 4
+snippet cenb
+	<div class="center-block">${1:Centered block}</div>
+endsnippet
+
+# Clearfix - Bootstrap 4
+snippet cle
+	<div class="clearfix">${1:...}</div>
+endsnippet
+
+# Hidden content - Bootstrap 4
+snippet hid
+	<input type="text" hidden>
+endsnippet
+
+# Invisible content - Bootstrap 4
+snippet inv
+	<div class="invisible">${1:...}</div>
+endsnippet
+
+# Screen reader - Bootstrap 4
+snippet sro
+	<a class="sr-only sr-only-focusable" href="${2:#content}">${1:Skip to main content}</a>
+endsnippet
+
+# Image replacement - Bootstrap 4
+snippet imgre
+	<h1 class="text-hide">${1:Custom heading}</h1>
+endsnippet
+
+# Responsive embeds - Bootstrap 4
+snippet emb
+	${3:<!-- 21:9 | 16:9 | 4:3 aspect ratio -->}
+	<div class="embed-responsive embed-responsive-${1:21by9|16by9|4by3}">
+		<iframe class="embed-responsive-item" src="${2:...}"></iframe>
+	</div>
+endsnippet
+

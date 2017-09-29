@@ -1,0 +1,85 @@
+
+# Tables
+# Table - Bootstrap 4
+snippet tab
+	<table class="table">
+		<thead>
+			<tr>
+				<th>$1</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>$2</td>
+			</tr>
+		</tbody>
+	</table>
+endsnippet
+
+# Tables (full option) - Bootstrap 4
+snippet tabs
+	<table class="table table-${1:inverse|reflow|striped|bordered|hover|sm}">
+		<thead>
+			<tr>
+				${2:<th>#</th>}
+				${3:<th>First Name</th>}
+				${3:<th>Last Name</th>}
+				${3:<th>Username</th>}
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				${2:<th scope="row">1</th>}
+				${3:<td>Mark</td>}
+				${3:<td>Otto</td>}
+				${3:<td>@mdo</td>}
+			</tr>
+			${4:<tr>
+				${2:<th scope="row">2</th>}
+				${3:<td>Jacob</td>}
+				${3:<td>Thornton</td>}
+				${3:<td>@fat</td>}
+			</tr>
+			<tr>
+				${2:<th scope="row">3</th>}
+				${3:<td>Larry</td>}
+				${3:<td>the Bird</td>}
+				${3:<td>@twitter</td>}
+			</tr>}
+		</tbody>
+	</table>
+endsnippet
+
+# Tables Head Inverse - Bootstrap 4
+snippet tabhin
+	<table class="table">
+		<thead class="thead-inverse">
+			$1
+		</thead>
+	</table>
+endsnippet
+
+# Tables Responsive - Bootstrap 4
+snippet tabr
+	<div class="table-responsive">
+		<table class="table">
+			$1
+		</table>
+	</div>
+endsnippet
+
+# Tables Colspan - Bootstrap 4
+snippet tdcs
+	<td colspan="$1">
+endsnippet
+
+# Tables Colors (tr) - Bootstrap 4
+snippet tabtrc
+	<tr class="table-${1:active|success|warning|danger|info}">$2</tr>
+endsnippet
+
+# Tables Colors (td) - Bootstrap 4
+snippet tabtdc
+	<td class="table-${1:active|success|warning|danger|info}">$2</td>
+endsnippet
+
